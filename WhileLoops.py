@@ -1,7 +1,7 @@
 '''
 While loop - it keeps looping while a given condition is valid
 '''
-name = "shell"
+name = "Kevin"
 age = 24
 letter_index = 0
 while letter_index < len(name):
@@ -26,3 +26,9 @@ So as long as the condition is met in line 6, the loop will keep running operati
 
 If all conditions are met, we can end it with the else statement
 '''
+name2 = "Bichael"
+
+if name2 == "Dichael":
+    print("right name right there")
+else:
+    print("wrong name")
