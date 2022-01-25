@@ -1,7 +1,7 @@
 '''
 While loop - it keeps looping while a given condition is valid
 '''
-name = "Buttsex"
+name = "mememomo"
 letter_index = 0
 while letter_index < len(name):
     print(name[letter_index])
