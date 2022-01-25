@@ -26,9 +26,15 @@ So as long as the condition is met in line 6, the loop will keep running operati
 
 If all conditions are met, we can end it with the else statement
 '''
-name2 = "Bichael"
+counter = 0
 
-if name2 == "Dichael":
-    print("right name right there")
+while counter < 10:
+    print(counter)
+    counter = counter + 2
 else:
-    print("wrong name")
+    print("counter while loop ended")
+
+'''
+Same thing as above, but this time, we define counter as a number 0, and the while loop will list out all numbers
+lower than 10 at a step size of 2.
+'''
